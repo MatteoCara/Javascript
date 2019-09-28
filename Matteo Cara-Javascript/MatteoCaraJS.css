@@ -1,0 +1,96 @@
+body {
+  background-image: url("images/sfondometeo.jpg");
+
+}
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+}
+
+.title{
+   top: 20px;
+   text-align:center;
+   font-style: Georgia;
+   font-size: 50px;
+   color: white;
+   margin: auto;
+   position: relative;
+}
+
+.bottone{
+  height: 50px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font: bold 15px Georgia, sans-serif;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px 10px 10px 10px;
+  background: #0095cd;
+  margin-left: 10px;
+}
+
+.barra{
+  text-align: center;
+  text-decoration: black;
+  font: bold 12px Arial, Helvetica, sans-serif;
+  color: black;
+  padding: 10px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.social{
+  position: fixed;
+  right: 0%;
+}
+
+.spazio{
+  margin-left: 10px;
+}
+
+.spazio2{
+  text-align: center;
+  font-style: Georgia;
+  font-size: 40px;
+  color: white;
+  margin-top: 30px;
+}
+
+.tabella1{
+  font-style: Georgia;
+  font-size: 30px;
+  color: white;
+  text-transform: capitalize;
+  text-align: center;
+  line-height: 50px;
+  background-image: url("images/sfondoinformazioni.jpg");
+  border-radius: 10px 10px 10px 10px;
+  width: 300px;
+  height: 50px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.tabella2{
+  position: relative;
+  line-height: 20px;
+  font-style: Georgia;
+  font-size: 15px;
+  color: white;
+  text-transform: capitalize;
+  margin:auto;
+  text-align: center;
+  background-image: url("images/sfondoinformazioni.jpg");
+  border-radius: 10px 10px 10px 10px;
+  left: 0;
+  right: 0;
+  top:20px;
+  width: 300px;
+  height: 170px;
+}

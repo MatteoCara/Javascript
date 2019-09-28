@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Meteo</title>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+      <link rel="stylesheet" href="MatteoCaraJS.css">
+  </head>
+  <body>
+    <!-- Spazio riservato ai loghi social -->
+    <div class="social">
+          <a class="spazio" href="https://www.facebook.com/MatteCara" target="_blank">
+          <img src="images/facebook.png" width="25"></a>
+          <a class="spazio"href="https://www.instagram.com/_matteocara_/?hl=it" target="_blank">
+          <img src="images/instagram.png" width="25"></a>
+          <a class="spazio"href="https://www.linkedin.com/in/matteocara/" target="_blank">
+          <img src="images/linkedin.png" width="25"></a>
+          <a class="spazio"href="https://www.youtube.com/channel/UCThsyhRn3Jjsyw7TXvDwPWg?view_as=subscriber" target="_blank">
+          <img src="images/youtube.png" width="25"></a>
+          <a class="spazio"href="https://github.com/MatteoCara" target="_blank">
+          <img src="images/github.png" width="25"></a>
+</div>
+
+<div class="page">
+
+<div class="title">
+Today'sWeather <br><br>
+
+<input  class="barra" type="search"  onkeydown="tasto()" id="weath" placeholder="City">
+<button class="bottone" type="submit" onclick="getWeather()">Search</button>
+
+<div class="spazio2">
+  <div  class="citt"></div>
+</div>
+
+<div class="tabella1">
+      <a class="temperature-description"></a>
+</div>
+
+    <div class="tabella2">
+      <br>
+      <div class="temperature-value"><p></p></div><br>
+      <div  class="temperaturemin-value"><p></p></div><br>
+      <div  class="temperaturemax-value"><p></p></div><br>
+      <div  class="umidit-value"><p></p></div>
+    </div>
+  </div>
+</div>
+<script src="MatteoCaraJS.js"></script>
+</body>
+</html>
